@@ -1,5 +1,27 @@
 # Changelog
 
+## [0.1.54](https://github.com/mckinsey/agents-at-scale-ark/compare/v0.1.53...v0.1.54) (2026-02-13)
+
+
+### Features
+
+* **ark:** add embedded API server with PostgreSQL storage backend ([#937](https://github.com/mckinsey/agents-at-scale-ark/issues/937)) ([e4e6fee](https://github.com/mckinsey/agents-at-scale-ark/commit/e4e6feec546d516595e7034c5af310760427d20e))
+* enable a2a chunk streaming ([#1109](https://github.com/mckinsey/agents-at-scale-ark/issues/1109)) ([93558d6](https://github.com/mckinsey/agents-at-scale-ark/commit/93558d6c942ee89f73b1c0ea16efd1b4a3f0a258))
+* Per-Tenant (namespace) OTEL Routing ([#1055](https://github.com/mckinsey/agents-at-scale-ark/issues/1055)) ([7e44629](https://github.com/mckinsey/agents-at-scale-ark/commit/7e446296648c0f89c83bd31fccbe96fd53100cca))
+
+
+### Bug Fixes
+
+* add left padding to plain text files in file preview ([#1120](https://github.com/mckinsey/agents-at-scale-ark/issues/1120)) ([0a9d384](https://github.com/mckinsey/agents-at-scale-ark/commit/0a9d38448e94bc634b55e353420da73060f5dd2b))
+* Adding waiting time for health check instead of seconds ([#1080](https://github.com/mckinsey/agents-at-scale-ark/issues/1080)) ([af9124e](https://github.com/mckinsey/agents-at-scale-ark/commit/af9124e8668b384840a4bacd12c0940d1079ce5f))
+* **argo-workflows:** make artifact repository optional ([#952](https://github.com/mckinsey/agents-at-scale-ark/issues/952)) ([e5be5fa](https://github.com/mckinsey/agents-at-scale-ark/commit/e5be5fa7cb128e527a2be43bcfcfa84f29f0b4db))
+* Cloud deployments: remove tresholds for probes ([#1090](https://github.com/mckinsey/agents-at-scale-ark/issues/1090)) ([d23845c](https://github.com/mckinsey/agents-at-scale-ark/commit/d23845c1ec73871cf5d1cbd5e9551d24caaa7a70))
+* Make sure selector is invoked for every turn ([#1086](https://github.com/mckinsey/agents-at-scale-ark/issues/1086)) ([442a9e7](https://github.com/mckinsey/agents-at-scale-ark/commit/442a9e78473ae2c034124bd2306f0400a998653a))
+* mock API calls for llm-tests as well ([#1118](https://github.com/mckinsey/agents-at-scale-ark/issues/1118)) ([04ca740](https://github.com/mckinsey/agents-at-scale-ark/commit/04ca740de57d2f6a64dfea1107ff2b33e9735190))
+* prompts for mcp isolation tests ([#1054](https://github.com/mckinsey/agents-at-scale-ark/issues/1054)) ([3dc0c72](https://github.com/mckinsey/agents-at-scale-ark/commit/3dc0c7203d4065cb29888b86af750c84916270bb))
+* Require all workflows to be successful before going into release ([#1085](https://github.com/mckinsey/agents-at-scale-ark/issues/1085)) ([0d059af](https://github.com/mckinsey/agents-at-scale-ark/commit/0d059af02a3b18de4cdf56e4655eb8320703e027))
+* workflow template permissions and argo base url env var ([#1098](https://github.com/mckinsey/agents-at-scale-ark/issues/1098)) ([a989ca8](https://github.com/mckinsey/agents-at-scale-ark/commit/a989ca805335bc986d8de43ee0530b7a8966e2a6))
+
 ## [0.1.53](https://github.com/mckinsey/agents-at-scale-ark/compare/v0.1.52...v0.1.53) (2026-02-10)
 
 
